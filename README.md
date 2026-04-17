@@ -1,28 +1,98 @@
-# Data Binning and Formatting using Python
+# Data Visualization using Python (Experiment 14)
 
-## Project Overview
-This project demonstrates essential data preprocessing techniques—**Data Binning** and **Data Formatting**—using the Python `pandas` and `numpy` libraries. These techniques are crucial for transforming raw data into a structured format suitable for statistical analysis and machine learning.
+## Student Details
+- Name: Samarth Deshmukh  
+- PRN: 25070123101  
 
-## Key Concepts Covered
+---
 
-### 1. Data Binning (Discretization)
-Binning is used to group continuous numerical values into discrete "bins" or categories. 
-- **Price Categorization**: Segmenting product prices into 'Low', 'Medium', and 'High' ranges.
-- **Sales Performance**: Categorizing units sold into 'Low Sales', 'Medium Sales', and 'High Sales'.
-- **Logistics Analysis**: Grouping delivery times into 'On Time', 'Delayed', and 'Critical' categories to monitor efficiency.
+## Objective
+To understand and implement data visualization techniques using Python libraries for better data analysis and representation.
 
-### 2. Data Formatting
-Formatting ensures that data types and strings are consistent across the dataset.
-- **Type Conversion**: Converting integer columns to float for precise mathematical operations.
-- **String Manipulation**: Normalizing text data by converting product names to uppercase.
-- **Numerical Precision**: Rounding numerical values to specific decimal places for cleaner reporting.
+---
 
-### 3. Data Manipulation
-- **Sorting**: Organizing data based on price in both ascending and descending order to identify extremes.
-- **Unique Value Inspection**: Identifying distinct categories created during the binning process.
+## Experiment Description
 
-## Technical Procedure
-1. **Import Libraries**: Load `pandas` and `numpy`.
-2. **DataFrame Creation**: Initialize datasets containing product info (Price, Units) and order info (Value, Delivery Time, Distance).
-3. **Applying pd.cut()**: Define custom bin edges and labels to transform continuous variables into categorical factors.
-4. **Data Cleaning**: Standardize text and numeric formats using `.str.upper()`, `.astype()`, and `.round()`.
+This experiment focuses on visualizing data using different types of plots to extract meaningful insights.
+
+---
+
+## Dataset Description
+
+The dataset used includes information such as:
+- Categories / Labels
+- Numerical values
+- Frequency or distribution data
+
+The dataset is used to demonstrate different visualization techniques.
+
+---
+
+## Steps Performed
+
+### 1. Data Preparation
+- Imported necessary libraries
+- Created or loaded dataset using Pandas DataFrame
+
+---
+
+### 2. Line Plot
+- Used to show trends over time or continuous data
+- Implemented using `matplotlib.pyplot`
+
+---
+
+### 3. Bar Chart
+- Compared different categories
+- Used for discrete data representation
+
+---
+
+### 4. Histogram
+- Displayed frequency distribution of numerical data
+- Showed how data is spread
+
+---
+
+### 5. Pie Chart
+- Represented proportions of categories
+- Displayed percentage distribution
+
+---
+
+### 6. Scatter Plot
+- Showed relationship between two variables
+- Useful for correlation analysis
+
+---
+
+### 7. Seaborn Visualizations
+- Enhanced plots using Seaborn
+- Improved styling and readability
+
+---
+
+## Key Functions Used
+
+- `plt.plot()`
+- `plt.bar()`
+- `plt.hist()`
+- `plt.pie()`
+- `plt.scatter()`
+- `sns.*` functions
+
+---
+
+## Result
+
+- Various plots were successfully created
+- Data trends and relationships were visualized clearly
+- Graphical representation improved data understanding
+
+---
+
+## Conclusion
+
+Data visualization plays a crucial role in data analysis. This experiment demonstrates how different plots can be used to interpret and communicate data effectively.
+
+---
